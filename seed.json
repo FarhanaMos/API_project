@@ -1,0 +1,169 @@
+{
+    "customer": [
+        {
+            "id": 1,
+            "name": "Ingvar Kamprad"
+        },
+        {
+            "id": 2,
+            "name": "Jesper Brodin"
+        },
+        {
+            "id": 3,
+            "name": "Jon Abrahamsson Ring"
+        },
+        {
+            "id": 4,
+            "name": "Henrik Elm"
+        },
+        {
+            "id": 5,
+            "name": "Hannah de Jong"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "BILLY",
+            "price": 799,
+            "category": "bokhylla"
+        },
+        {
+            "id": 2,
+            "name": "KALLAX",
+            "price": 499,
+            "category": "hylla"
+        },
+        {
+            "id": 3,
+            "name": "LACK",
+            "price": 149,
+            "category": "soffbord"
+        },
+        {
+            "id": 4,
+            "name": "POÄNG",
+            "price": 999,
+            "category": "fåtölj"
+        },
+        {
+            "id": 5,
+            "name": "RIBBA",
+            "price": 49,
+            "category": "ram"
+        },
+        {
+            "id": 6,
+            "name": "MALM",
+            "price": 1499,
+            "category": "sängstomme"
+        },
+        {
+            "id": 7,
+            "name": "RENSARE",
+            "price": 79,
+            "category": "besticklåda"
+        },
+        {
+            "id": 8,
+            "name": "SINNLIG",
+            "price": 39,
+            "category": "doftljus"
+        },
+        {
+            "id": 9,
+            "name": "EKET",
+            "price": 249,
+            "category": "hylla"
+        },
+        {
+            "id": 10,
+            "name": "LINNMON",
+            "price": 299,
+            "category": "skrivbord"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "order_date": "2024-06-01",
+            "customer_id": 1
+        },
+        {
+            "id": 2,
+            "order_date": "2024-06-02",
+            "customer_id": 2
+        },
+        {
+            "id": 3,
+            "order_date": "2024-06-03",
+            "customer_id": 3
+        },
+        {
+            "id": 4,
+            "order_date": "2024-06-04",
+            "customer_id": 4
+        },
+        {
+            "id": 5,
+            "order_date": "2024-06-05",
+            "customer_id": 5
+        }
+    ],
+    "order_item": [
+        {
+            "id": 1,
+            "order_id": 1,
+            "product_id": 1,
+            "quantity": 2
+        },
+        {
+            "id": 2,
+            "order_id": 1,
+            "product_id": 3,
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "order_id": 2,
+            "product_id": 2,
+            "quantity": 4
+        },
+        {
+            "id": 4,
+            "order_id": 2,
+            "product_id": 5,
+            "quantity": 3
+        },
+        {
+            "id": 5,
+            "order_id": 3,
+            "product_id": 4,
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "order_id": 3,
+            "product_id": 6,
+            "quantity": 2
+        },
+        {
+            "id": 7,
+            "order_id": 4,
+            "product_id": 8,
+            "quantity": 5
+        },
+        {
+            "id": 8,
+            "order_id": 4,
+            "product_id": 9,
+            "quantity": 1
+        },
+        {
+            "id": 9,
+            "order_id": 5,
+            "product_id": 10,
+            "quantity": 2
+        }
+    ]
+}
