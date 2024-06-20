@@ -1,10 +1,10 @@
 # Project File Structure
-main.py --> the program itself 
-db.py --> database logic and handles database interactions.
-api.py --> defines the API endpoints.
-models.py --> defines the data models.
-setup.sql --> SQL script to set up the database.
-seed.py --> to seed data to database
+main.py: Contains the main program logic.
+db.py: Handles database interactions and logic.
+api.py: Defines API endpoints for the application.
+models.py: Defines data models used in the application.
+setup.sql: SQL script for setting up the database schema.
+seed.py: Script to seed initial data into the database.
 
 # Assignment 
 # Instruktioner 
